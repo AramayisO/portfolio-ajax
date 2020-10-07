@@ -12,18 +12,27 @@
     <script src="https://kit.fontawesome.com/2f6b428307.js" crossorigin="anonymous"></script>
 </head>
 <body>
-    
-    <nav class="nav position-fixed flex-column justify-content-center vh-100">
-        <a class="nav-link rounded-circle shadow d-flex justify-content-center align-items-center mx-5 my-3" href="#"><i class="fas fa-home" data-label="home"></i></a>
-        <a class="nav-link rounded-circle shadow d-flex justify-content-center align-items-center mx-5 my-3" href="#about"><i class="fas fa-user" data-label="about"></i></a>
-        <a class="nav-link rounded-circle shadow d-flex justify-content-center align-items-center mx-5 my-3" href="#portfolio"><i class="fas fa-folder-open" data-label="portfolio"></i></a>
-        <a class="nav-link rounded-circle shadow d-flex justify-content-center align-items-center mx-5 my-3" href="#contact"><i class="fas fa-envelope" data-label="contact"></i></a>
+  
+    <nav class="navbar navbar-expand-lg position-fixed vh-100">
+        <button class="navbar-toggler position-fixed m-3" type="button" data-toggle="collapse" data-target="#collapsableNav" aria-controls="collapsableNav" aria-expanded="false" aria-label="Toggle navigation">
+            <i class="fas fa-bars"></i>
+        </button>
+        <div class="collapse navbar-collapse" id="collapsableNav">
+          <div class="navbar-nav d-flex flex-column">
+                <a class="nav-link rounded-circle shadow d-flex justify-content-center align-items-center mx-5 my-3" href="#"><i class="fas fa-home" data-label="home"></i></a>
+                <a class="nav-link rounded-circle shadow d-flex justify-content-center align-items-center mx-5 my-3" href="#about"><i class="fas fa-user" data-label="about"></i></a>
+                <a class="nav-link rounded-circle shadow d-flex justify-content-center align-items-center mx-5 my-3" href="#portfolio"><i class="fas fa-folder-open" data-label="portfolio"></i></a>
+                <a class="nav-link rounded-circle shadow d-flex justify-content-center align-items-center mx-5 my-3" href="#contact"><i class="fas fa-envelope" data-label="contact"></i></a>
+          </div>
+        </div>
     </nav>
-
-    <!-- jQuery + Popper.js bundle  -->
-    <script src="src/bootstrap.bundle.min.js"></script>
+    
+    <!-- jQuery -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <!-- Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
     <!-- Bootstrap JS -->
-    <script src="src/bootstrap.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
     <!-- Custom Scripts -->
     <script src="src/script.js"></script>
 </body>
