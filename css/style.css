@@ -45,3 +45,14 @@ body {
 .navbar-toggler:focus {
     outline: none;
 }
+
+@media screen and (max-width: 991px) {
+    .navbar .collapsing, .navbar .show {
+        width: 300px;
+        background-color: rgba(0, 0, 0, 0.1);
+        -webkit-transition: all ease-in-out 0.5s;
+           -moz-transition: all ease-in-out 0.5s;
+             -o-transition: all ease-in-out 0.5s;
+                transition: all ease-in-out 0.5s;
+    }
+}
