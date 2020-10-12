@@ -96,6 +96,8 @@ body {
  *-----------------------------------------------------------------------------*/
 #hero {
     position: relative;
+    top: 0;
+    left: 0;
     background-image: url(../img/hero.jpg);
     background-size: cover;
     background-repeat: no-repeat;
@@ -115,5 +117,7 @@ body {
 
 #hero .jumbotron {
     position: relative;
+    top: 0;
+    left: 0;
     z-index: 1;
 }
