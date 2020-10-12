@@ -4,6 +4,7 @@
     --color-primary: #45505B;
     --color-secondary: #F2F3F5;
     --color-accent: #0563BB;
+    --color-overlay: rgba(255, 255, 255, 0.7);
 }
 
 body {
@@ -39,6 +40,10 @@ body {
 /*-----------------------------------------------------------------------------
  * Nav 
  *-----------------------------------------------------------------------------*/
+ nav {
+    z-index: 9999;
+ }
+
 .nav-link {
     font-size: 1.5rem;
     width: 52px;
@@ -89,6 +94,23 @@ body {
 /*-----------------------------------------------------------------------------
  * Hero
  *-----------------------------------------------------------------------------*/
- #hero {
-     background-image: url(../img/hero.jpg);
- }
+#hero {
+    position: relative;
+    background-image: url(../img/hero.jpg);
+}
+
+#hero .container::after {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 0;
+    background-color: var(--color-overlay);
+}
+
+#hero .jumbotron {
+    position: relative;
+    z-index: 1;
+}
