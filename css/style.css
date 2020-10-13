@@ -4,21 +4,50 @@
     --color-primary: #45505B;
     --color-secondary: #F2F3F5;
     --color-accent: #0563BB;
+    --color-overlay: rgba(255, 255, 255, 0.7);
 }
 
 body {
     font-family: var(--font-family-primary);
     font-weight: 400;
     font-size: 16px;
+    color: var(--color-primary);
+}
+
+/*-----------------------------------------------------------------------------
+ * Utility classes
+ *-----------------------------------------------------------------------------*/
+.bg_transparent {
+    background-color: rgba(0, 0, 0, 0);
+}
+
+.font_color_primary {
+    color: var(--color-primary);
+}
+
+.font_color_accent {
+    color: var(--color-accent);
+}
+
+.font_family_accent {
+    font-family: var(--font-family-accent);
+}
+
+.no_underline {
+    text-decoration: none !important;
 }
 
 /*-----------------------------------------------------------------------------
  * Nav 
  *-----------------------------------------------------------------------------*/
+ nav {
+    z-index: 9999;
+ }
+
 .nav-link {
     font-size: 1.5rem;
-    width: 52px;
-    height: 52px;
+    width: 64px;
+    height: 64px;
     color: var(--color-primary);
     background-color: var(--color-secondary);
 }
@@ -60,4 +89,35 @@ body {
              -o-transition: all ease-in-out 0.5s;
                 transition: all ease-in-out 0.5s;
     }
+}
+
+/*-----------------------------------------------------------------------------
+ * Hero
+ *-----------------------------------------------------------------------------*/
+#hero {
+    position: relative;
+    top: 0;
+    left: 0;
+    background-image: url(../img/hero.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+#hero .container::after {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 0;
+    background-color: var(--color-overlay);
+}
+
+#hero .jumbotron {
+    position: relative;
+    top: 0;
+    left: 0;
+    z-index: 1;
 }
