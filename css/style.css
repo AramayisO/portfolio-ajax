@@ -53,6 +53,14 @@ body {
     border-radius: 50rem;
 }
 
+.grow_on_hover {
+    transition: transform 300ms ease-in-out;
+}
+
+.grow_on_hover:hover {
+    transform: scale(1.5);
+}
+
 .wrapper {
     width: 100%;
 }
@@ -165,8 +173,6 @@ body {
       opacity: 1;
     }
   }
-  
-  
 
 /*-----------------------------------------------------------------------------
  * Nav 
