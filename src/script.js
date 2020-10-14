@@ -5,6 +5,33 @@ $(document).ready(function() {
         $(this).addClass("active");
     });
 
+    const SkillCards = {
+        init: function(skills) {
+            this.cards = document.querySelector('#skill_cards');
+            this.parser = new DOMParser();
+
+            skills.forEach(skill => {
+                let cardStr = this.createCardString(skill);
+                let card = this.parser.parseFromString(cardStr, "text/html").body.querySelector(".col");
+                this.cards.appendChild(card);
+            });
+        },
+
+        createCardString: function(skill) {
+            return `
+                <div class="col px-0 mb-5">
+                    <div class="card text-center border-0">
+                        <img src="${skill.image.url}" class="card-img-top px-4" alt="${skill.image.alt}">
+                        <div class="card-body">
+                            <h4 class="card-title font_family_accent font_color_accent">${skill.category}</h4>
+                            <p class="card-text">${skill.specifics.join(', ')}</p>
+                        </div>
+                    </div>
+                </div>
+            `;
+        }
+    }
+
     const PortfolioCards = {
         init: function(projects) {
             this.cards = document.querySelector('#portfolio_cards');
@@ -12,7 +39,7 @@ $(document).ready(function() {
 
             projects.forEach((project, index) => {
                 let cardStr = this.createCardString(project, index);
-                let card = this.parser.parseFromString(cardStr, "text/html").body.querySelector('.col');
+                let card = this.parser.parseFromString(cardStr, "text/html").body.querySelector(".col");
                 this.cards.appendChild(card);
             });
         },
@@ -57,6 +84,7 @@ $(document).ready(function() {
     fetch('../config.json')
         .then(response => response.json())
         .then(data => {
+            SkillCards.init(data.skills);
             PortfolioCards.init(data.projects);
         })
         .catch(error => console.error(error));

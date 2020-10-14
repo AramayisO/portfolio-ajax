@@ -1,4 +1,22 @@
 {
+    "skills": [
+        {
+            "image": {"url": "./img/frontend.svg", "alt": "..."},
+            "category": "Frontend", 
+            "specifics": ["HTML5", "CSS3", "JavaScript", "Responsive Design", "Bootstrap", "jQuery", "AJAX"]
+        },
+        {
+            "image": {"url": "./img/backend.svg", "alt": "..."},
+            "category": "Backend", 
+            "specifics": ["Python", "Java", "C/C++", "PostgreSQL", "MongoDB", "Redis", "Kafka", "Unit Testing", "Integration Testing"]
+        },
+        {
+            "image": {"url": "./img/devops.svg", "alt": "..."},
+            "category": "Dev Ops", 
+            "specifics": ["Amazon Web Services", "Docker", "Nginx", "Digital Ocean", "CI/CD"]
+        }
+    ],
+
     "projects": [
         {
             "name": "Event Landing Page",
