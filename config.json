@@ -1,0 +1,37 @@
+{
+    "projects": [
+        {
+            "name": "Event Landing Page",
+            "description": "",
+            "liveURL": "https://aramayiso.github.io/event-landing-page/",
+            "githubURL": "https://github.com/AramayisO/event-landing-page",
+            "images": [
+                {"url": "./img/event_landing_page/1.png", "alt": ""},
+                {"url": "./img/event_landing_page/2.png", "alt": ""},
+                {"url": "./img/event_landing_page/3.png", "alt": ""},
+                {"url": "./img/event_landing_page/4.png", "alt": ""}
+            ]
+        },
+        {
+            "name": "MFW Day 4",
+            "description": "",
+            "liveURL": "https://aramayiso.github.io/mfw-day-4/",
+            "githubURL": "https://github.com/AramayisO/mfw-day-4",
+            "images": [
+                {"url": "./img/mfw_day_4/1.png", "alt": ""},
+                {"url": "./img/mfw_day_4/2.png", "alt": ""},
+                {"url": "./img/mfw_day_4/3.png", "alt": ""}
+            ]
+        },
+        {
+            "name": "Parallax",
+            "description": "",
+            "liveURL": "https://aramayiso.github.io/parallax-practice/",
+            "githubURL": "https://github.com/AramayisO/parallax-practice",
+            "images": [
+                {"url": "./img/parallax_practice/1.gif", "alt": ""},
+                {"url": "./img/parallax_practice/2.png", "alt": ""}
+            ]
+        }
+    ]
+}
