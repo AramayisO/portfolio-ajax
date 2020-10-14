@@ -67,7 +67,14 @@ body {
     background-color: var(--color-secondary);
 }
 
+.nav-link.active {
+    color: #FFFFFF;
+    background-color: var(--color-accent);
+    border-radius: 50rem !important;
+} 
+
 .nav-link:hover {
+    padding: 0 20px !important;
     width: auto;
     color: #FFFFFF;
     background-color: var(--color-accent);
