@@ -65,30 +65,41 @@ body {
     height: 64px;
     color: var(--color-primary);
     background-color: var(--color-secondary);
+    border-radius: 50rem !important;
+    -webkit-transition: width 300ms ease-in-out;
+       -moz-transition: width 300ms ease-in-out;
+         -o-transition: width 300ms ease-in-out;
+            transition: width 300ms ease-in-out;
 }
 
 .nav-link.active {
     color: #FFFFFF;
     background-color: var(--color-accent);
-    border-radius: 50rem !important;
 } 
 
 .nav-link:hover {
     padding: 0 20px !important;
-    width: auto;
+    width: 150px;
     color: #FFFFFF;
     background-color: var(--color-accent);
-    border-radius: 50rem !important;
+}
+
+.nav-link i::after {
+    vertical-align: middle !important;
+    content: attr(data-label);
+    font-family: var(--font-family-primary);
+    font-size: 0;
+    text-transform: capitalize;
+    -webkit-transition: all 200ms ease-in 50ms;
+       -moz-transition: all 200ms ease-in 50ms;
+         -o-transition: all 200ms ease-in 50ms;
+            transition: all 200ms ease-in 50ms;
 }
 
 .nav-link:hover.nav-link i::after {
     display: inline-block;
     padding-left: 8px;
-    vertical-align: middle !important;
-    content: attr(data-label);
-    font-family: var(--font-family-primary);
     font-size: 1rem;
-    text-transform: capitalize;
 }
 
 .navbar-toggler {
