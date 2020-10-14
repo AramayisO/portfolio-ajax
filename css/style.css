@@ -24,6 +24,10 @@ body {
 /*-----------------------------------------------------------------------------
  * Utility classes
  *-----------------------------------------------------------------------------*/
+.btn-outline-primary:hover {
+    background-color: var(--color-accent) !important;
+}
+
 .bg_transparent {
     background-color: rgba(0, 0, 0, 0);
 }
@@ -42,10 +46,6 @@ body {
 
 .no_underline {
     text-decoration: none !important;
-}
-
-.outline_accent {
-    border: 2px solid var(--color-accent);
 }
 
 .pill {
