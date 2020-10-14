@@ -11,7 +11,7 @@ $(document).ready(function() {
         const socialLinkWrappers = document.querySelectorAll('.social_links');
 
         const createLinkString = (link) => `
-            <a href="${link.url}" class="d-inline-block h2 mr-5 font_color_primary no_underline grow_on_hover">
+            <a href="${link.url}" target="_blank" class="d-inline-block h2 mr-5 font_color_primary no_underline grow_on_hover">
                 <i class="${link.icon}"></i>
             </a>
         `;
