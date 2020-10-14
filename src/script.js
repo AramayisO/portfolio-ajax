@@ -5,6 +5,29 @@ $(document).ready(function() {
         $(this).addClass("active");
     });
 
+    const SocialLinks = {
+        init: function(links) {
+            this.linkWrappers = document.querySelectorAll('.social_links');
+            this.parser = new DOMParser();
+
+            this.linkWrappers.forEach(wrapper => {
+                links.forEach(link => {
+                    let linkStr = this.createLinkString(link);
+                    let socialLink = this.parser.parseFromString(linkStr, "text/html").body.querySelector('a');
+                    wrapper.appendChild(socialLink);
+                });
+            })
+        },
+
+        createLinkString: function(link) {
+            return `
+                <a href="${link.url}" class="d-inline-block h2 mr-5 font_color_primary no_underline grow_on_hover">
+                    <i class="${link.icon}"></i>
+                </a>
+            `;
+        }
+    }
+
     const SkillCards = {
         init: function(skills) {
             this.cards = document.querySelector('#skill_cards');
@@ -84,6 +107,7 @@ $(document).ready(function() {
     fetch('../config.json')
         .then(response => response.json())
         .then(data => {
+            SocialLinks.init(data.links);
             SkillCards.init(data.skills);
             PortfolioCards.init(data.projects);
         })

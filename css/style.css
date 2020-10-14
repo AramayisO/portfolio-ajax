@@ -278,21 +278,26 @@ body {
     z-index: 1;
 }
 
-#hero .slide_in_elliptic_top_fwd:nth-of-type(2) {
+#hero .social_links a {
+    -webkit-animation: slide-in-elliptic-top-fwd 0.7s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+	        animation: slide-in-elliptic-top-fwd 0.7s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+}
+
+#hero .social_links a:nth-of-type(2) {
     -webkit-animation-delay: 250ms;
        -moz-animation-delay: 250ms;
          -o-animation-delay: 250ms;
             animation-delay: 250ms;
 }
 
-#hero .slide_in_elliptic_top_fwd:nth-of-type(3) {
+#hero .social_links a:nth-of-type(3) {
     -webkit-animation-delay: 500ms;
        -moz-animation-delay: 500ms;
          -o-animation-delay: 500ms;
             animation-delay: 500ms;
 }
 
-#hero .slide_in_elliptic_top_fwd:nth-of-type(4) {
+#hero .social_links a:nth-of-type(4) {
     -webkit-animation-delay: 750ms;
        -moz-animation-delay: 750ms;
          -o-animation-delay: 750ms;
