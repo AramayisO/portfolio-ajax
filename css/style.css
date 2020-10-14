@@ -137,8 +137,25 @@ body {
     height: 250px;
 }
 
-/* @media screen and (max-width: 1399px) {
-    #about .card img {
-        width: 250px;
-    }
-} */
+/*-----------------------------------------------------------------------------
+ * Portfolio section
+ *-----------------------------------------------------------------------------*/
+#portfolio {
+    background: rgb(232,236,245);
+    background: linear-gradient(165deg, rgba(232,236,245,1) 50%, rgba(255,255,255,1) 50%);
+}
+
+#portfolio .carousel {
+    margin-bottom: 48px;
+}
+
+#portfolio .card .carousel-indicators {
+    transform: translateY(200%);
+}
+
+#portfolio .card .carousel-indicators li {
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+    background-color: var(--color-accent);
+}
