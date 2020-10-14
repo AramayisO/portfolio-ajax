@@ -27,7 +27,7 @@
     "projects": [
         {
             "name": "Event Landing Page",
-            "description": "",
+            "description": "Responsive landing page developed with Flexbox and Bootstrap.",
             "liveURL": "https://aramayiso.github.io/event-landing-page/",
             "githubURL": "https://github.com/AramayisO/event-landing-page",
             "images": [
@@ -39,7 +39,7 @@
         },
         {
             "name": "MFW Day 4",
-            "description": "",
+            "description": "Mobile friendly web page developed using Flexbox.",
             "liveURL": "https://aramayiso.github.io/mfw-day-4/",
             "githubURL": "https://github.com/AramayisO/mfw-day-4",
             "images": [
@@ -50,7 +50,7 @@
         },
         {
             "name": "Parallax",
-            "description": "",
+            "description": "Responsive web page with parallax effect.",
             "liveURL": "https://aramayiso.github.io/parallax-practice/",
             "githubURL": "https://github.com/AramayisO/parallax-practice",
             "images": [
