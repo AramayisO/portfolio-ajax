@@ -79,8 +79,8 @@ $(document).ready(function() {
                         <p class="card-text">${project.description}</p>
                     </div>
                     <div class="card-footer d-flex justify-content-around border-0 bg_transparent">
-                        <a href="${project.liveUrl}" target="_blank" class="card-link">Live</a>
-                        <a href="${project.githubUrl}" target="_blank" class="card-link">GitHub</a>
+                        <a href="${project.liveURL}" target="_blank" class="card-link">Live</a>
+                        <a href="${project.githubURL}" target="_blank" class="card-link">GitHub</a>
                     </div>
                 </div>
             </div>
