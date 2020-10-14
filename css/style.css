@@ -4,6 +4,7 @@
     --color-primary: #45505B;
     --color-secondary: #F2F3F5;
     --color-accent: #0563BB;
+    --color-accent-light: #CED2DB;
     --color-overlay: rgba(255, 255, 255, 0.7);
 }
 
@@ -231,7 +232,7 @@ body {
 @media screen and (max-width: 991px) {
     .navbar .collapsing, .navbar .show {
         width: 300px;
-        background-color: rgba(0, 0, 0, 0.1);
+        background-color: var(--color-accent-light);
         -webkit-transition: all ease-in-out 0.5s;
            -moz-transition: all ease-in-out 0.5s;
              -o-transition: all ease-in-out 0.5s;
