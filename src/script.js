@@ -95,7 +95,7 @@ $(document).ready(function() {
 
     // Read the data in the config.json file and use the data to dynamically 
     // generate parts of the DOM.
-    fetch('../config.json')
+    fetch('config.json')
         .then(response => response.json())
         .then(data => {
             let parser = new DOMParser();
