@@ -26,6 +26,17 @@
 
     "projects": [
         {
+            "name": "Face Detection App",
+            "description": "This ReactJS application allows users to input an image URL and uses the Clarifai API to detect human faces in the image.",
+            "liveURL": "http://facedetect.ml",
+            "githubURL": "https://github.com/AramayisO/face-detect",
+            "images": [
+                {"url": "./img/face_detect/1.png", "alt": ""},
+                {"url": "./img/face_detect/2.png", "alt": ""},
+                {"url": "./img/face_detect/3.png", "alt": ""}
+            ]
+        },
+        {
             "name": "Event Landing Page",
             "description": "Responsive landing page developed with Flexbox and Bootstrap.",
             "liveURL": "https://aramayiso.github.io/event-landing-page/",
