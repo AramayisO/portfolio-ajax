@@ -8,19 +8,19 @@
 
     "skills": [
         {
-            "image": {"url": "./img/frontend.svg", "alt": "..."},
+            "image": {"url": "./img/frontend.svg", "alt": "Frontend development"},
             "category": "Frontend", 
-            "specifics": ["HTML5", "CSS3", "JavaScript", "Responsive Design", "Bootstrap", "jQuery", "AJAX"]
+            "specifics": ["HTML5", "CSS3", "JavaScript", "jQuery", "React", "Bootstrap"]
         },
         {
-            "image": {"url": "./img/backend.svg", "alt": "..."},
+            "image": {"url": "./img/backend.svg", "alt": "Backend development"},
             "category": "Backend", 
-            "specifics": ["Python", "Java", "C/C++", "PostgreSQL", "MongoDB", "Redis", "Kafka", "Unit Testing", "Integration Testing"]
+            "specifics": ["Python", "NodeJS", "C/C++", "MySQL", "PostgreSQL", "MongoDB", "Redis"]
         },
         {
-            "image": {"url": "./img/devops.svg", "alt": "..."},
+            "image": {"url": "./img/devops.svg", "alt": "Dev Ops"},
             "category": "Dev Ops", 
-            "specifics": ["Amazon Web Services", "Docker", "Nginx", "Digital Ocean", "CI/CD"]
+            "specifics": ["Amazon Web Services", "Docker", "Nginx", "Linux Servers"]
         }
     ],
 
