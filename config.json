@@ -37,6 +37,17 @@
             ]
         },
         {
+            "name": "Magic 8 Ball",
+            "description": "Ask the magic 8 ball a question and wait while the all knowing 8 ball looks into the future to uncover the answer.",
+            "liveURL": "https://aramayiso.github.io/magic8ball/",
+            "githubURL": "https://github.com/AramayisO/magic8ball",
+            "images": [
+                {"url": "./img/magic_8_ball/1.png", "alt": ""},
+                {"url": "./img/magic_8_ball/2.png", "alt": ""},
+                {"url": "./img/magic_8_ball/3.png", "alt": ""}
+            ]
+        },
+        {
             "name": "Event Landing Page",
             "description": "Responsive landing page developed with Flexbox and Bootstrap.",
             "liveURL": "https://aramayiso.github.io/event-landing-page/",
