@@ -1,9 +1,9 @@
 {
     "links": [
-        {"url": "https://github.com", "icon": "fab fa-github"},
-        {"url": "https://linkedin.com", "icon": "fab fa-linkedin-in"},
-        {"url": "https://twitter.com", "icon": "fab fa-twitter"},
-        {"url": "https://facebook.com", "icon": "fab fa-facebook-f"}
+        {"url": "https://github.com/AramayisO", "icon": "fab fa-github"},
+        {"url": "https://www.linkedin.com/in/aramayis/", "icon": "fab fa-linkedin-in"},
+        {"url": "https://twitter.com/_aramayis", "icon": "fab fa-twitter"},
+        {"url": "https://www.facebook.com/aramais.orkusyan", "icon": "fab fa-facebook-f"}
     ],
 
     "skills": [
