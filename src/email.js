@@ -13,7 +13,7 @@ $(document).ready(function() {
         spinner.classList.remove('d-none');
 
         // these IDs from the previous steps
-        emailjs.sendForm('contact_service', 'contact_form', this)
+        emailjs.sendForm('contact_service', 'contact_form', event.target)
             .then(function() {
                 // Turn on the spinner
                 spinner.classList.add('d-none');
