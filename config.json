@@ -26,8 +26,19 @@
 
     "projects": [
         {
+            "name": "Pinder",
+            "description": "Pinder is a Tinder like platform, but for adopting pets. It was built as a group project using React and Google Firebase. ",
+            "liveURL": "https://aramayiso.github.io/Pinder/",
+            "githubURL": "https://github.com/AramayisO/Pinder",
+            "images": [
+                {"url": "./img/pinder/1.png", "alt": ""},
+                {"url": "./img/pinder/2.png", "alt": ""},
+                {"url": "./img/pinder/3.png", "alt": ""}
+            ]
+        },
+        {
             "name": "Face Detection App",
-            "description": "This ReactJS application allows users to input an image URL and uses the Clarifai API to detect human faces in the image.",
+            "description": "This React application allows users to input an image URL and uses the Clarifai API to detect human faces in the image.",
             "liveURL": "http://facedetect.ml",
             "githubURL": "https://github.com/AramayisO/face-detect",
             "images": [
