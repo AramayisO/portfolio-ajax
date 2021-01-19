@@ -10,17 +10,17 @@
         {
             "image": {"url": "./img/frontend.svg", "alt": "Frontend development"},
             "category": "Frontend", 
-            "specifics": ["HTML5", "CSS3", "JavaScript", "jQuery", "React", "Bootstrap"]
+            "specifics": ["HTML5", "CSS3", "JavaScript", "Bootstrap", "jQuery", "React", "React Router", "Redux", "SPA"]
         },
         {
             "image": {"url": "./img/backend.svg", "alt": "Backend development"},
             "category": "Backend", 
-            "specifics": ["Python", "NodeJS", "C/C++", "MySQL", "PostgreSQL", "MongoDB", "Redis"]
+            "specifics": ["Python", "NodeJS", "Java", "MVC Architecture", "REST APIs", "MySQL", "PostgreSQL", "MongoDB", "Redis"]
         },
         {
             "image": {"url": "./img/devops.svg", "alt": "Dev Ops"},
             "category": "Dev Ops", 
-            "specifics": ["Amazon Web Services", "Docker", "Nginx", "Linux Servers"]
+            "specifics": ["Amazon Web Services", "Google Firebase", "Docker", "Nginx", "Linux Servers"]
         }
     ],
 
