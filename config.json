@@ -9,7 +9,7 @@
     "skills": [
         {
             "image": {"url": "./img/frontend.svg", "alt": "Frontend development"},
-            "category": "Frontend Development", 
+            "category": "Frontend", 
             "specifics": ["HTML5", "CSS3", "JavaScript", "Bootstrap", "jQuery", "React", "React Router", "Redux", "SPA"]
         },
         {
